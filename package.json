@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Thia is namaste react by padmaksh",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
@@ -21,10 +23,10 @@
     "process": "^0.11.10"
   },
   "dependencies": {
-    "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
   },
-  "browserslist":[
+  "browserslist": [
     "last 2 Chrome versions",
     "last 2 Firefox versions"
   ]
